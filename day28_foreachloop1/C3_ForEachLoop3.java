@@ -1,0 +1,36 @@
+package day28_foreachloop1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class C3_ForEachLoop3 {
+
+	public static void main(String[] args) {
+		// Verilen bir Arraydeki tüm elemanlari bir listeye aktaran bir method yaziniz
+		
+		
+		String arr[]= {"Ali","Veli","Ayse","Fatma"};
+		
+		List<String> list=listeyeCevir(arr);
+		
+		list.add(0,"Bu is bu kadar");
+		
+		System.out.println(list);
+		
+		
+		
+	}
+				 //Return Type
+	public static List<String> listeyeCevir(String[] arr) {
+		
+		List<String> geciciList=new ArrayList<>();
+		
+		for (String i : arr) {
+			
+			geciciList.add(i);
+		}
+		
+		return geciciList;
+	}
+
+}
