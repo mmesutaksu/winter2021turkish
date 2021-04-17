@@ -18,7 +18,7 @@ public class Arrays02 {
 		}
 		
 		if (flag) {
-			System.out.println("Array soruln elemani iceriyor");
+			System.out.println("Array sorulan elemani iceriyor");
 		} else {
 			System.out.println("Array sorulan elemani icermiyor");
 		}

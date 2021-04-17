@@ -36,7 +36,7 @@ public class Arrays01 {
 		
 		// ortadaki elemni degistrme
 		if (takim.length%2==1) {
-			int ortaIndex=((takim.length+1)/2)-1;
+			int ortaIndex=((takim.length-1)/2);
 			takim[ortaIndex]="Can";
 			
 		}
